@@ -1,0 +1,26 @@
+{
+  "name": "basic-node-site",
+  "version": "1.0.0",
+  "description": "A very basic informational site that contains 4 pages: index, about, contact-me and 404.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkeralexjm/Basic-Node-Site.git"
+  },
+  "author": "Alex Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkeralexjm/Basic-Node-Site/issues"
+  },
+  "homepage": "https://github.com/parkeralexjm/Basic-Node-Site#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
